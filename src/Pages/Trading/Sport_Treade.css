@@ -1,0 +1,45 @@
+@media(min-width:1025px){
+.sport_trade{
+background-color: #000;
+height: 101%;
+}
+#SvgjsText1637{
+    display: none !important;
+}
+
+.van_dis{
+    display: flex;
+}
+
+.tv-lightweight-charts{
+    /* width: 610px !important; */
+}
+
+.second_trad{
+    position: absolute;
+    margin-top: 27%;
+    width: 21%;
+}
+.fist_trade{
+    max-width: 44% !important;
+}
+.trade_data_1{
+    display: flex;
+}
+}
+
+@media(max-width:1000px){
+    .tv-lightweight-charts{
+        width: 363px !important;
+    }
+    .col-md-6{
+            padding-right: 0px !important;
+     padding-left: 0px !important;
+    }
+}
+
+
+.pp{
+    color: #fff;
+    padding: 2px 30px;
+}

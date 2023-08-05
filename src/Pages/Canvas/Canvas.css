@@ -1,0 +1,29 @@
+.btn-close{
+    margin-top: -97% !important;
+    background-color: red !important;
+
+}
+
+.modal-content {
+    width: 700px !important;
+    margin-left: -40px;
+    margin-top: -110px;
+}
+
+.popup-img-first{
+    width: 660px;
+}
+
+@media(max-width:1024px){
+    .modal-content {
+        /* width: 700px !important; */
+        margin-left: -95px;
+    }
+
+    .popup-img-first{
+        margin-left: 90px;
+        width: 306px;
+    
+    }
+}
+

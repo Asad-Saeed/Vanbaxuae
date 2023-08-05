@@ -1,0 +1,35 @@
+table{
+    width: 100%;
+    border: solid 1px white;
+}
+thead{
+    background-color: rgba(0, 0, 0, .2);    
+    color: rgb(255 255 255 / 80%);
+}
+th{
+    padding: 0.7rem;
+    font-size: 1rem;
+    max-width: 300px;
+    text-align: center !important;
+}
+td{    
+    padding: 0.5rem;
+    color: white;
+    font-size: 1.1rem;
+    
+}
+
+tr{
+    border: solid 1px white !important;
+}
+
+.table_main{
+    /* height: 100% !important; */
+    overflow-x: scroll;
+}
+.table_main::-webkit-scrollbar{
+    width: 0px;
+}
+.table_tr{
+    line-height: 2.5rem !important;
+}

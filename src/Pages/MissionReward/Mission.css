@@ -1,0 +1,115 @@
+.likes__wrapper{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+     
+  }
+  .likes__relavance{
+    position:relative;
+    padding:0 80px;
+  }
+  .likes__list{
+    position:absolute;
+    box-sizing: border-box;
+    overflow-y:scroll;
+    max-height:150px;
+    /* left:0%; */
+    z-index:999;
+    background:white;
+    padding:10px;
+    border:1px solid grey;
+    box-shadow: 0 0 2px 2px grey;
+    margin-top: -16px;
+  }
+
+  @media (min-width:1024px) {
+  .prop1{
+    margin-left:0%
+  }
+  .prop2{
+    margin-left:5%
+  }
+  .prop3{
+    margin-left:12%
+  }
+  .prop4{
+    margin-left:19%
+  }
+  .prop5{
+    margin-left:26%
+  }
+  .prop6{
+    margin-left:33%
+  }
+  .prop7{
+    margin-left:40%
+  }
+  .prop8{
+    margin-left:47%
+  }
+  .prop9{
+    margin-left: 54%;
+  }
+  .prop10{
+    margin-left:60%
+  }
+  .prop11{
+    margin-left:67%
+  }
+  .prop12{
+    margin-left:74%
+  }
+  .prop13{
+    margin-left:81%
+  }
+  .prop14{
+    margin-left:88%
+  }
+}
+
+@media (max-width:1024px) {
+    .prop1{
+        margin-left:0%
+      }
+      .prop2{
+        margin-left:1%
+      }
+      .prop3{
+        margin-left:9%
+      }
+      .prop4{
+        margin-left:13%
+      }
+      .prop5{
+        margin-left:18%
+      }
+      .prop6{
+        margin-left:22%
+      }
+      .prop7{
+        margin-left:31%
+      }
+      .prop8{
+        margin-left:38%
+      }
+      .prop9{
+        margin-left: 46%;
+      }
+      .prop10{
+        margin-left:52%
+      }
+      .prop11{
+        margin-left:57%
+      }
+      .prop12{
+        margin-left:67%
+      }
+      .prop13{
+        margin-left:69%
+      }
+      .prop14{
+        margin-left:70%
+      }
+    
+   
+}
